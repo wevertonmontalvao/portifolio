@@ -1,0 +1,432 @@
+body {
+    font-family: "Heebo";
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    max-width: 1152px;
+    margin: 0 auto;
+    
+}
+nav a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 23px;
+   
+    
+}
+
+nav a:hover {
+    transition: color .3s linear ;
+    color: #FF6464;
+    
+    
+    border-radius: 20px;
+
+}
+
+#sobre-mim-section {
+    width: 860px ;
+    margin: 175px auto 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#sobre-mim-section div h1 {
+    font-size:44px ;
+    font-weight: bold ;
+    line-height:60px ;
+}
+
+#sobre-mim-section div p {
+    width: 497px;
+
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+#sobre-mim-section div button {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    border: none;
+    background-color: #FF6464;
+    
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color:#fff ;
+    
+}
+
+
+#sobre-mim-section div img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+
+ /*aqui começa a estisação da sessão icons */
+
+ .skills-container {
+    width: 100%;
+
+ }
+
+ .skills-container h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    text-align: center;
+ }
+
+ .skills-container div {
+    width: 100%;
+    background: #384772;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+ }
+
+.skills-container div img {
+    height: 75px;
+}
+
+.skills-container div img + img {
+    margin-left: 23px;
+}
+
+/* aqui começa minhas abas de projeto do portifolio*/
+
+#meu-projeto-section{
+    background: #384772;
+    padding: 24px 0;
+    margin: 70px 0;
+}
+
+
+
+
+#meu-projeto-section h2{
+    font-size: 28px;
+    color: #ffff;
+    
+}
+
+#meu-projeto-section section{
+    width: 860px;
+    margin: 0 auto;
+}
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 21px;
+
+}
+
+.projects-container div img {
+    width: 400px;
+    height: 170px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.projects-container div {
+    background: #ffff;
+    width: 49%;
+    margin: 0 0 20px 0;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+.projects-container div h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 14px 0 9px 23px;
+}
+
+.projects-container div p {
+    font-size: 16px;
+    margin: 23px;
+}
+
+.butao {
+    width: 80px;
+    height: 32px;
+    background-color: #384772;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 255px;
+    cursor: pointer;
+    border: solid #000 1px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    transition:color .6s linear;
+    overflow: hidden;   
+    
+}
+
+.butao:hover{
+    color: #000;
+}
+
+/* Aqui começa o sobre minhas skills*/
+
+#experiencia-container{
+    width: 975px;
+    margin: 55px auto;    
+    
+}
+
+
+
+#experiencia-container section {
+    display: flex;
+  
+}
+
+
+#experiencia-container h2{
+    margin-left: 70px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#experiencia-item{
+    width: 600px;
+    height: 250px;
+    padding: 20px 20px 27px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    background:#384772 ;
+    border-radius: 48px;
+
+
+}
+
+
+
+#experiencia-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+
+}
+
+ #experiencia-container h2 {
+        color: #FF6464;
+}
+
+#experiencia-item p {
+    color: #fff;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+
+
+#experiencia-item h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 75px;  
+  
+}
+
+#experiencia-item ul{
+    list-style: none;
+    list-style-position:  initial;
+    margin: 38px;
+    color: #fff;
+
+}
+
+.ul-position {
+    display: flex;
+    gap: 10px;
+}
+
+/* aqui começa a estilisação do meu footer*/
+
+footer {
+    width: 856px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #E0E0E0 ;
+    padding-top: 31px;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 45px;
+
+}
+footer img + img {
+    margin-left: 35px;
+}
+
+/* aqui começa toda a parte de responsividade da aplicação*/
+
+@media (max-width: 400px) {
+    nav {
+        width: 100%;
+        
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    #sobre-mim-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 34px;
+        width: 100%;
+    }
+
+    #sobre-mim-section div h1{
+        font-size: 32px;
+        line-height: 40px ;
+        margin-bottom: 44px;
+        margin-bottom: 44px;
+        text-align: center;
+
+    }
+
+    #sobre-mim-section div p {
+        font-size: 16px;
+        width: 328px;
+        text-align: center;
+
+    }
+
+    #sobre-mim-section div img {
+        width: 177px;
+        height: 177px;
+        margin-bottom: 36px;
+    }
+
+    #sobre-mim-section div button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+
+
+
+    #meu-projeto-section{
+        display: flex;
+        
+    }
+
+
+    #meu-projeto-section section h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .projects-container div {
+        width: 354px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projects-container div img {
+        width: 355px;
+    }
+
+    .projects-container div h3 {
+        font-size: 22px;
+        
+    }
+
+    .projects-container div p {
+        font-size: 16px;
+        max-width: 314px;
+    }
+
+    .skills-container  h2  {
+        font-size: 24px;
+    }
+
+    .skills-container div {
+        flex-wrap: wrap;
+        padding: 4px 0 34px;
+    }
+
+    .skills-container img, #skills-container div img + img {
+        margin: 40px 30px 0;
+
+    }
+
+   
+
+    #experiencia-container section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        margin-right: 50px;
+
+    }
+
+    
+
+
+    #experiencia-item {
+        width:380px;
+        height: 300px;
+        box-sizing: border-box;  
+    }
+
+    #experiencia-item h3 {
+         margin-right: 30px;
+    }
+
+
+    .ul-position {
+        display: flex;
+        
+        
+    }
+
+    #experiencia-item ul{
+        margin: 10px;
+        
+    
+    }
+
+    
+    footer{
+        width: 100%;
+    }
+    
+    
+    }
+    
+    
+
+
